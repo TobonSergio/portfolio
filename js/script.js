@@ -49,3 +49,12 @@ document.getElementById("education").addEventListener("click", function(){
         
     }
 });
+
+
+document.getElementById("botonAboutMe").addEventListener("click", function() {
+    // Encuentra la sección de destino por su identificador
+    var aboutMe = document.getElementById("aboutMe");
+
+    // Desplaza la página hasta la sección de destino
+    aboutMe.scrollIntoView({ behavior: "smooth" });
+});

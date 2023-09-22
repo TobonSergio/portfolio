@@ -498,6 +498,25 @@ body {
   height: 1000px;
 }
 
+
+.about_me {
+  border-bottom: 1px solid #00ddff00;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease, color 0.2s ease;
+}
+
+.about_me:hover {
+  transform: translateY(2px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-color: #00DDFF; /* Cambio de color del borde al pasar el ratón */
+}
+
+.about_me:active {
+  transform: translateY(-1px);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
 /*
 
 
